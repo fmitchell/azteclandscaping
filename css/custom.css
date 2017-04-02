@@ -1,11 +1,18 @@
 .variaion4_request_form h5 {
     background: #dd8249;
+    color: #fff;
 }
 
 .button--winona.button--inverted {
     background: #dd8249;
+    color: #fff;
 }
 
 .frthhome_services a.read_more {
     color: #dd8249;
+}
+
+a.view-all.slide_contact_btn {
+    color: #fff;
+    background: #dd8249;
 }
