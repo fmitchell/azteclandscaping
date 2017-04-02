@@ -16,3 +16,12 @@ a.view-all.slide_contact_btn {
     color: #fff;
     background: #dd8249;
 }
+
+h1.business-name {
+    display: inline-block;
+    color: #dd8249;
+}
+
+.logo img {
+    margin-top: -25px;
+}
