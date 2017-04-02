@@ -1,15 +1,28 @@
 ---
 layout: default
 ---
-
-<article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
+  <!-- Inner_Heading Start-->
+  <div class="inner_page_bnr">
+    <div class="container">
+      <h2>{{ page.title }}</h2>
+      <!-- BreadCrumb Start-->
+      <div class="breadcum_bg">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li class="active">{{ page.title }}</li>
+          </ol>
+        </div>
+      </div>
+      <!-- BreadCrumb End-->
+    </div>
   </div>
+  <!-- Inner_Heading End-->
 
-</article>
+  <div class="wdt_100 pad_100">
+    <div class="container">
+      <div class="row">
+        {{ content }}
+      </div>
+    </div>
+  </div>
