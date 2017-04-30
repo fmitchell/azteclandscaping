@@ -20,8 +20,13 @@ a.view-all.slide_contact_btn {
 h1.business-name {
     display: inline-block;
     color: #dd8249;
+    margin-left: 15px;
 }
 
 .logo img {
     margin-top: -25px;
+}
+
+.variaion4_request_form h5:after {
+    background: none;
 }
