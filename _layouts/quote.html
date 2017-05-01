@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+  <!-- Inner_Heading Start-->
+  <div class="inner_page_bnr">
+    <div class="container">
+      <h2>{{ page.title }}</h2>
+      <!-- BreadCrumb Start-->
+      <div class="breadcum_bg">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li class="active">{{ page.title }}</li>
+          </ol>
+        </div>
+      </div>
+      <!-- BreadCrumb End-->
+    </div>
+  </div>
+  <!-- Inner_Heading End-->
+
+  <!-- Content_Section Start-->
+  <div class="wdt_100 pad_94_100">
+    <div class="container">
+      <p class="cnt_txt">Please send us a message of what you'd like done.</p>
+      <div class="row">
+        <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+          <form id="contact-form" action="http://formspree.io/fredric@brightplum.com" method="post" name="contactform">
+            <div class="messages"></div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input id="name" type="text" name="name" placeholder="Name" required="" class="form-control">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input id="email" type="email" name="email" placeholder="Email" title="Please enter a valid email" required="" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input id="subject" type="text" name="subject" placeholder="Subject" required="" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <textarea id="message" name="message" type="text" rows="4" placeholder="Message" class="form-control contact_textarea"></textarea>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <input type="submit" value="submit now" class="btn submit_now">
+              </div>
+              <div class="col-md-12">
+                <div class="requestSuccess"></div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
+          <div class="contact_info wdt_100">
+            <ul>
+              <li class="cnt_map_icon">
+                <p>6052 S. California Ave.<br>
+                  Chicago, IL 60629</p>
+              </li>
+              <li class="cnt_call_icon">
+                <p class="cnt_fnt_18">773-701-3083</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Content_Section End-->

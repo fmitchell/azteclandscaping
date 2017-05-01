@@ -15,13 +15,14 @@ layout: default
                 Landscape and
                 gardening service
               </h2>
-              <p data-animation="animated fadeInDown">We can turn your front and backyard into a beautiful haven that you can be proud of.</p><a data-animation="animated fadeInUp" href="contact.html" data-text="OUr Services" class="button button--winona button--inverted"><span>OUr Services</span></a>
+              <p data-animation="animated fadeInDown">We can turn your front and backyard into a beautiful haven that you can be proud of.</p>
+              <a data-animation="animated fadeInUp" href="/services" data-text="Our Services" class="button button--winona button--inverted"><span>Our Services</span></a>
             </div>
           </div>
           <div data-animation="animated fadeInRight" class="variaion4_request_form">
             <h5>Request a free quote</h5>
             <div class="request_form_inner">
-              <form id="contact-form" method="post">
+              <form id="contact-form" method="post" action="http://formspree.io/fredric@brightplum.com">
                 <div class="messages"></div>
                 <div class="form-group request_group">
                   <label>Name:</label>
@@ -40,8 +41,13 @@ layout: default
                 </div>
                 <div class="form-group request_group">
                   <label>Service:</label>
-                  <select name="state" data-bv-field="state" class="form-control selectpicker">
-                    <option value=" "></option>
+                  <select name="service" data-bv-field="service" class="form-control selectpicker">
+                    <option value="lawngarden">Lawn and Garden Care</option>
+                    <option value="irrigation">Irrigation and Drainage</option>
+                    <option value="stone">Stone and Hard Scaping</option>
+                    <option value="planting">Planting and Removal</option>
+                    <option value="cleanup">Spring and Fall Cleanup</option>
+                    <option value="snow">Snow and Ice Removal</option>
                   </select>
                   <div class="help-block with-errors"></div>
                 </div>
@@ -75,12 +81,15 @@ layout: default
         <ul class="frthabt_list">
           <li>
             <h6>Trained Staff</h6>
+            <p>We provide friendly and knowledgeable staff to deliver quality service for your need.</p>
           </li>
           <li>
-            <h6>Quality work</h6>
+            <h6>Quality Work</h6>
+            <p>We make sure that you are satisfied with our work.</p>
           </li>
           <li>
             <h6>Best Price</h6>
+            <p>We offer competitive pricing for all of our services.</p>
           </li>
         </ul>
       </div>
