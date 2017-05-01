@@ -28,11 +28,14 @@
           <li class="dropdown"><a href="/">Home</a></li>
           {% for my_page in site.pages %}
             {% if my_page.title %}
+              {% if my_page.url != 'quotes' %}
               <li class="dropdown"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+              {% endif %}
             {% endif %}
           {% endfor %}
           <li class="dropdown"><a href="#">Pay Bill</a></li>
-        </ul>
+        </ul><a href="/quote" class="var4_request_btn">Get a quote</a>
+        <div class="responsive_btn"><a href="/quote" class="view-all hvr-bounce-to-right mobile_view request_quote">Request a quote</a></div>
       </div>
     </div>
   </div>
